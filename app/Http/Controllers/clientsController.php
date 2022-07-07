@@ -19,7 +19,7 @@ class clientsController extends Controller
         $clients = DB::table('t_clients')
         ->where('N_ISDELETED', '=', 0)
         ->orderBy('N_CLIENT_ID', 'desc')
-        ->paginate(8);
+        ->paginate(9);
         $branch = DB::table('t_detailedcodes')->where('N_MasterCode', '=', 1)->get();
         $nationality = DB::table('t_detailedcodes')->where('N_MasterCode', '=', 3)->get();
         $client_type = DB::table('t_detailedcodes')->where('N_MasterCode', '=', 22)->get();
@@ -383,7 +383,7 @@ class clientsController extends Controller
         $opponents = DB::table('t_againsts')
         ->where('N_ISDELETED', '=', 0)
         ->orderBy('N_AGAINST_ID', 'desc')
-        ->paginate(8);
+        ->paginate(9);
         //get all againsts
         $opponents_count = DB::table('t_againsts')->get();
         $branch = DB::table('t_detailedcodes')->where('N_MasterCode', '=', 1)->get();
