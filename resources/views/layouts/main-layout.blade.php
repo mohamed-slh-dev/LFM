@@ -544,7 +544,7 @@
               document.getElementById("departments").innerHTML = '<a href="javascript:void(0);"   class="mdi mdi-view-dashboard pl-0 pt-0"></a> &nbsp الاقسام  ';
               document.getElementById("employees").innerHTML = '<a  href="javascript:void(0);"  class="mdi mdi-account-multiple large pl-0 pt-0"></a> &nbsp الموظفين ';
               document.getElementById("menu-calendar").innerHTML = '<a href="javascript:void(0);"   class="mdi mdi-calendar pl-0 pt-0"></a> &nbsp التقويم';
-              document.getElementById("leavs").innerHTML = '<a  href="javascript:void(0);"  class="mdi mdi-briefcase  pl-0 pt-0"></a> &nbsp Leaves ';
+              document.getElementById("leavs").innerHTML = '<a  href="javascript:void(0);"  class="mdi mdi-briefcase  pl-0 pt-0"></a> &nbsp الإجازات ';
               document.getElementById("login-register").innerHTML = ' <a href="javascript:void(0);"   class="mdi mdi-login  pl-0 pt-0"></a> &nbsp سجلات الدخول ';
               document.getElementById("activities").innerHTML = '<a  href="javascript:void(0);"  class="mdi mdi-update  pl-0 pt-0"></a> &nbsp النشاطات ';
               document.getElementById("roles").innerHTML = ' <a  href="javascript:void(0);"  class="mdi mdi-settings  pl-0 pt-0"></a> &nbsp ادارة الصلاحيات';
